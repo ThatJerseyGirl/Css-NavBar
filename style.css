@@ -21,18 +21,29 @@ a {
 }
 
 .image-container {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    margin-left: 50px;
+  margin-top: 30px;
 }
 
 .image-container img {
-  width: 640px;
-  height: 420px;
+  width: 90%;
+  height: auto;
+}
+
+.center-content {
+  height: auto;
+  margin-top: 25px;
+  gap: 25px;
 }
 
 
+
+.centered-content img {
+    margin-left:70px;
+  width: 640px;
+  height: 420px;
+  object-fit: cover;
+}
 .link {
   background-color: yellow;
   color: red;
@@ -72,7 +83,6 @@ nav ul {
   padding: 0;
 }
 .center-content {
-  height: 100vh;
   width: 100vw;
 
   display: flex;
